@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <NoWarn>$(NoWarn);NU1507</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Bunifu.UI.WinForms" Version="9.0.3" />
+    <PackageVersion Include="BunifyDesigner.UI" Version="4.8.3" />
+    <PackageVersion Include="FontAwesome.Sharp" Version="6.6.0" />
+    <PackageVersion Include="Kimtoo.DbManager" Version="1.0.8" />
+    <PackageVersion Include="Kimtoo.ThemeProvider" Version="1.0.2" />
+    <PackageVersion Include="magic.data.common" Version="17.1.7" />
+    <PackageVersion Include="MySqlConnector.Logging.Microsoft.Extensions.Logging" Version="2.1.0" />
+    <PackageVersion Include="Siticone.NetCore.UI" Version="2025.8.15.1" />
+    <PackageVersion Include="Siticone.NetFramework.UI" Version="2025.8.15" />
+  </ItemGroup>
+</Project>
